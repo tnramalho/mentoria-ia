@@ -62,7 +62,7 @@ export function HeroThread() {
         </Step>
       </ol>
       <figcaption className="mt-6 text-xs text-muted-foreground">
-        Exemplo ilustrativo de como funciona o WhatsApp durante a semana.
+        Exemplo ilustrativo de como funciona o acompanhamento pelo WhatsApp.
       </figcaption>
     </figure>
   );

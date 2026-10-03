@@ -14,14 +14,14 @@ const STEPS = [
   },
   {
     number: "02",
-    title: "1 encontro individual por semana",
-    body: "Toda semana teremos aproximadamente 1 hora juntos. Sem aula pronta. Abrimos seu problema e trabalhamos nele.",
+    title: "4 reuniões individuais, quando você precisar",
+    body: "Você tem 4 reuniões de 1 hora comigo para pedir em até 90 dias. Sem aula pronta. Abrimos seu problema e trabalhamos nele.",
     highlight: "Problema, IA, aplicação prática.",
   },
   {
     number: "03",
-    title: "Meu WhatsApp pessoal",
-    body: "Apareceu alguma coisa durante a semana? Me chama. Manda áudio, manda print, manda o problema, manda a ideia.",
+    title: "Acompanhamento pelo WhatsApp",
+    body: "Entre uma reunião e outra, você fala comigo no grupo da turma ou direto no meu WhatsApp. Manda áudio, manda print, manda o problema, manda a ideia.",
     highlight:
       "Se eu souber uma maneira melhor de fazer usando IA, eu te mostro o caminho.",
   },
@@ -80,10 +80,13 @@ const MY_USES = [
 ];
 
 const INCLUDED = [
-  { title: "12 encontros individuais", body: "1 encontro por semana." },
   {
-    title: "WhatsApp pessoal",
-    body: "Acesso direto a mim durante os 90 dias.",
+    title: "4 reuniões individuais",
+    body: "1 hora cada, para pedir quando precisar, em até 90 dias.",
+  },
+  {
+    title: "Acompanhamento pelo WhatsApp",
+    body: "No grupo da turma ou direto comigo, durante os 90 dias.",
   },
   {
     title: "Diagnóstico inicial",
@@ -130,8 +133,8 @@ export default function Home() {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
               <WhatsAppCta>Quero uma das 5 vagas</WhatsAppCta>
               <p className="text-sm text-muted-foreground">
-                1 encontro individual por semana
-                <br />+ WhatsApp pessoal
+                4 reuniões individuais em até 90 dias
+                <br />+ acompanhamento pelo WhatsApp
               </p>
             </div>
           </div>
@@ -181,9 +184,9 @@ export default function Home() {
             genérica.
           </p>
           <p>
-            Durante 90 dias, vamos trabalhar nos seus problemas reais. Toda
-            semana você traz o que está acontecendo. E nós usamos IA para
-            resolver juntos.
+            Durante 90 dias, vamos trabalhar nos seus problemas reais. Você
+            traz o que está acontecendo. E nós usamos IA para resolver
+            juntos.
           </p>
         </div>
       </Section>

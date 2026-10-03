@@ -15,7 +15,7 @@ const sans = Hanken_Grotesk({
 
 const title = "Mentoria particular de IA com Thiago Ramalho";
 const description =
-  "90 dias com acesso direto a mim para descobrir, aplicar e usar IA de forma prática no seu trabalho e na sua empresa. 1 encontro individual por semana + WhatsApp pessoal. Só 5 vagas.";
+  "90 dias com acesso direto a mim para descobrir, aplicar e usar IA de forma prática no seu trabalho e na sua empresa. 4 reuniões individuais em até 90 dias + acompanhamento pelo WhatsApp. Só 5 vagas.";
 
 export const metadata: Metadata = {
   title,
